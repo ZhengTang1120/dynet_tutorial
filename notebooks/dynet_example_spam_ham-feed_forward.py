@@ -289,6 +289,8 @@ for i in range(trainX.shape[0]):
     # make a forward pass
     pred = forward_pass(x)
     # calculate loss for each example
+    pred
+    y
     loss = dy.binary_log_loss(pred, y) 
     losses.append(loss)
 
